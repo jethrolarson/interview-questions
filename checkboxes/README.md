@@ -5,6 +5,8 @@
 3. `npm start` to start the dev server
 4. Open `public/index.html` and uncomment the scripts based on your language/framework preferences.
 
+If you're using VSCode open the workspace in the parent folder.
+
 For typescript:
 In another terminal `npm run watch`
 
