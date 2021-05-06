@@ -25,3 +25,9 @@ Bonus points:
 - HTML best practices
 - Design sensibilities
 - TypeScript
+
+# Follow ups
+
+1. Wrap it in a form and post the values to `/` with a button.
+2. Add labels and make the page not look horrible
+3. Write a unit test to cover what you wrote
