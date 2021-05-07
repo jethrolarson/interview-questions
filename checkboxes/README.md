@@ -11,7 +11,7 @@ You may use any libraries you like, open book, google whatever.
 You can use any of snowpack's supported file types:
 https://www.snowpack.dev/reference/supported-files
 
-Bonus points:
+### Bonus points
 
 - Testability
 - A11y
