@@ -15,6 +15,6 @@
     "isolatedModules": false,
     "jsx": "react",
     "baseUrl": ".",
-    "paths": { "*": [".snowpack/.snowpack/types/*"] }
+    "paths": { "*": [".snowpack/types/*"] }
   }
 }
