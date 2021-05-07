@@ -1,26 +1,26 @@
-
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Sample Title</title>
     <link href="normalize.css" rel="stylesheet" />
     <link href="styles.css" rel="stylesheet" />
-</head>
-<body>
-    <div id="root">render here</div>
-    <!-- for vanilla js uncomment this:
-        <script src="code.js"></script> -->
-    <!-- For React: 
-        <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
-        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
-    -->
-    <!-- For JSX uncomment these:
-        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
-        <script src="code-jsx.jsx" type="text/babel"></script>
-    -->
-    <!-- For TypeScript with react: 
-        <script src="code-ts.js"></script>
-    -->
+  </head>
+  <body>
+    <div>
+      <h1>Part 1:</h1>
+      <p>Draw a grid to the screen like the following:</p>
+      <img src="example_render.png" />
+    </div>
+    Draw here:
+    <div id="root"></div>
+
+    <h1>Part 2:</h1>
+    <p>Add ability to toggle cells black by clicking on them.</p>
+
+    <h1>Part 3:</h1>
+    <p>Write a unit test to cover an important part of what you wrote.</p>
+    <script type="module" src="code-tsx.js"></script>
+    <script type="module" src="code-jsx.js"></script>
   </body>
-  </html>
+</html>

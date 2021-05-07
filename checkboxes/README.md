@@ -3,20 +3,13 @@
 1. clone this repository
 2. `npm install` this folder
 3. `npm start` to start the dev server
-4. Open `public/index.html` and uncomment the scripts based on your language/framework preferences.
+4. `open http://localhost:8080` and follow instructions that appear
 
 If you're using VSCode open the workspace in the parent folder.
 
-For typescript:
-In another terminal `npm run watch`
-
-# Challenge
-
-Open either `public/code.js`, `public/code-jsx.jsx`, or `ts/code-ts.tsx` to code your solution.
-
-Given the `options` data structure, render a group of checkboxes.
 You may use any libraries you like, open book, google whatever.
-I've included setup options for vanilla-js, react, jsx, and TypeScript as a convenience. See `public/index.html` for switching modes. Feel free to challenge requirements or ask whatever questions.
+You can use any of snowpack's supported file types:
+https://www.snowpack.dev/reference/supported-files
 
 Bonus points:
 
@@ -24,10 +17,8 @@ Bonus points:
 - A11y
 - HTML best practices
 - Design sensibilities
-- TypeScript
+- Simplicity/Maintainability
 
 # Follow ups
 
-1. Wrap it in a form and post the values to `/` with a button.
-2. Add labels and make the page not look horrible
-3. Write a unit test to cover what you wrote
+Say you wanted to synchronize the board across users that have access to this resource. How would might you design the system architecture?
