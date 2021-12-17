@@ -5,20 +5,16 @@
 3. `npm start` to start the dev server
 4. `open http://localhost:8080` and follow instructions that appear
 
-If you're using VSCode open the workspace in the parent folder.
+If you're using VSCode open `gallery-interviews.code-workspace`.
 
-You may use any libraries you like, open book, google whatever.
+You may use any libraries you like and search the web like you were working for real.
 You can use any of snowpack's supported file types:
 https://www.snowpack.dev/reference/supported-files
 
-### Bonus points
+### Things to consider
 
 - Testability
 - A11y
 - HTML best practices
 - Design sensibilities
 - Simplicity/Maintainability
-
-# Follow ups
-
-Say you wanted to synchronize the board across users that have access to this resource. How would might you design the system architecture?
